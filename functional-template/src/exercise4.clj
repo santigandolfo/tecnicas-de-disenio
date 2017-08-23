@@ -1,9 +1,10 @@
 (ns exercise4)
 
-(defn ten-minus-by-two
-  "Does some math calculation."
-  [x]
-  (- 10 (* 2 x)))
+(defn summary
+  "Sums all elements of list."
+  [list]
+  (reduce + list)
+)
 
 
 
